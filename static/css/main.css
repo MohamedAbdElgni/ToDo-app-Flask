@@ -1,0 +1,95 @@
+/* Style for the body */
+body {
+    background-color: #f7f7f7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+p{
+  text-align: center;
+  color: #e60f0f;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /* Style for the content div */
+  .content {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+.content h1{
+    text-align: center;
+    margin-bottom: 20px;
+}  
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style for the table header */
+  th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style for the table rows */
+  tr {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  /* Style for the task column */
+  td:first-child {
+    padding: 10px;
+  }
+  
+  /* Style for the date column */
+  td:nth-child(2) {
+    padding: 20px;
+  }
+  
+  /* Style for the action column */
+  td:last-child {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style for the form */
+  .form {
+    margin-top: 20px;
+  }
+  
+  /* Style for the form inputs */
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+  }
+  
+  /* Style for the form submit button */
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  /* Style for the form submit button on hover */
+  input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block head%}
+<title>Task master</title>
+{% endblock %} 
+
+{% block body %}
+
+<div class="content">
+    <h1>Update Task</h1>
+    <!-- make the table with delete and edit  -->
+
+    <div class="form">
+    <form action="/update/{{task.id}}" method="Post">
+        <input type="text" name="content" id="content" , value="{{task.content}}">
+        <input name='button' id="button" type="submit" value="Update" >
+
+    </form>
+    {% if warning %}
+    <p style="color: red;">{{ warning }}</p>
+{% endif %}
+</div>
+
+{% endblock %}
