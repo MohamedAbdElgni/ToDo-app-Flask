@@ -14,7 +14,7 @@ A simple ToDo app using Flask and SQLAlchemy.
 
     ```bash
     $ virtualenv venv
-    $ source venv/bin/activate
+    $ source venv/Scripts/activate
     ``` 
 3. Install the dependencies
 
